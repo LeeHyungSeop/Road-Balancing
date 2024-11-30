@@ -2,7 +2,7 @@
 
 * Road Balancing : ITS infra data를 활용한 교통 의사결정 도우미 플랫폼
 * User Interface : Web, Mobile (구현 X, 구상만)
-* ![alt text](image.png)
+* ![alt text](UI_scheme.png)
 
 # Purpose
 
