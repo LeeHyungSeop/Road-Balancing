@@ -1,17 +1,26 @@
-# Idea
+# Road-Balancing
+
+## Idea
 
 * Road Balancing : ITS infra data를 활용한 교통 의사결정 도우미 플랫폼
-* User Interface : Web, Mobile (구현 X, 구상만)
-* ![alt text](UI_scheme.png)
+* User Interface : Web, Mobile (구현 X, 구상만)![alt text](UI_scheme.png)
+   * 형섭
+     * 사용 데이터셋 & API : https://data.seoul.go.kr/dataList/OA-12252/S/1/datasetView.do
+     * 구현 : 
+   * 민수
+     * 사용 데이터셋 & API : 
+     * 구현 : 
+   * 지호
+     * 사용 데이터셋 & API : 
+     * 구현 : 
 
-* 예시 데이터 : {month : 12, station : '홍대입구', eta : '19'}
-* ![alt text](홍대입구_12월_19-20시_승하차인원.png)
+* 예시 데이터 : {month : 12, station : '홍대입구', eta : '19'} ![alt text](홍대입구_12월_19-20시_승하차인원.png)
 
-# Purpose
+## Purpose
 
 * ITS 인프라를 통해 얻은 데이터를 활용하여 대중교통, 도로 혼잡도를 확인하고 이에 더해 도로 상황을 실시간으로 확인하여 목적지 이동 시 서비스 이용자의 의사 결정을 도와주는 플랫폼 구성
 
-# 필요성
+## 필요성
 
 1. 교통 혼잡 문제 완화
 도심 및 주요 도로의 교통량 증가로 인해 발생하는 혼잡은 경제적 손실과 환경 오염을 유발합니다. 
@@ -30,6 +39,3 @@
 1. 재난 및 긴급 상황 대처
 사고, 도로 공사, 자연재해 등으로 인해 교통 상황이 급격히 변하는 경우 실시간 데이터 기반의 의사결정 플랫폼은 빠르고 효율적인 대처를 가능하게 합니다.
 
-# 사용 데이터, API
-
-* # Road-Balancing
