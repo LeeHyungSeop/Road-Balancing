@@ -4,6 +4,9 @@
 * User Interface : Web, Mobile (구현 X, 구상만)
 * ![alt text](UI_scheme.png)
 
+* 예시 데이터 : {month : 12, station : '홍대입구', eta : '19'}
+* ![alt text](홍대입구_12월_19-20시_승하차인원.png)
+
 # Purpose
 
 * ITS 인프라를 통해 얻은 데이터를 활용하여 대중교통, 도로 혼잡도를 확인하고 이에 더해 도로 상황을 실시간으로 확인하여 목적지 이동 시 서비스 이용자의 의사 결정을 도와주는 플랫폼 구성
