@@ -1,24 +1,36 @@
 # Road-Balancing
 
-## Idea
-
-* Road Balancing : ITS infra data를 활용한 교통 의사결정 도우미 플랫폼
-* User Interface : Web, Mobile (구현 X, 구상만)![alt text](UI_scheme.png)
-   * 형섭
-     * 사용 데이터셋 & API : https://data.seoul.go.kr/dataList/OA-12252/S/1/datasetView.do
-     * 구현 : 
-   * 민수
-     * 사용 데이터셋 & API : 
-     * 구현 : 
-   * 지호
-     * 사용 데이터셋 & API : 
-     * 구현 : 
-
-* 예시 데이터 : {month : 12, station : '홍대입구', eta : '19'} ![alt text](홍대입구_12월_19-20시_승하차인원.png)
+* ITS infra data를 활용한 교통 의사결정 도우미 플랫폼
+* User Interface : Mobile App (구상)![alt text](./UI/UI.png)
 
 ## Purpose
 
 * ITS 인프라를 통해 얻은 데이터를 활용하여 대중교통, 도로 혼잡도를 확인하고 이에 더해 도로 상황을 실시간으로 확인하여 목적지 이동 시 서비스 이용자의 의사 결정을 도와주는 플랫폼 구성
+
+## 사용 dataset & API
+
+ * 이형섭
+   * 사용 데이터셋 & API : https://data.seoul.go.kr/dataList/OA-12252/S/1/datasetView.do
+   * 구현 : 과거 지하철 역의 유동인구 분석으로 오늘의 예측 혼잡도를 확인
+   * 예시 데이터 : 
+     * 입력 : {month : 12, station : '홍대입구', eta : '19'}
+     * 결과 :  ![alt text](홍대입구_12월_19-20시_승하차인원.png)
+     ![alt text](./00_홍대_유동인구.png)
+    
+ * 김민수
+   * 사용 데이터셋 & API : https://www.data.go.kr/data/15058364/openapi.do?recommendDataYn=Y
+   * 구현 : 과거 교통량 분석으로 오늘의 예측 교통량 제공 및 실시간 속도 제공
+   * 예시 데이터 : 
+     * 입력 : {month : 12, location : '서강대교', eta : '18'}
+     * 결과 :  ![alt text](./서강대교_수요일_18시_통행량.png)
+      ![alt text](./01_서강대교_통행량.png)
+ * 이지호
+   * 사용 데이터셋 & API : https://www.its.go.kr/opendata/opendataList?service=event
+   * 구현 : 목적지 주위 실시간 도로 돌발 정보 제공
+   * 예시 데이터 : 
+     * 입력 : 사용자 현위치(위도 : X, 경도 : Y)
+     * 결과 : 사용자 현위치 근방 1km 이내에 돌발 교통 정보 시각화![alt text](./02_돌발교통정보.png)
+
 
 ## 필요성
 
