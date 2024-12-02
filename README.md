@@ -1,6 +1,6 @@
 # Road-Balancing
 
-* ITS infra data를 활용한 교통 의사결정 도우미 플랫폼
+* **ITS infra data를 활용한 교통 의사결정 도우미 플랫폼**
 * User Interface : Mobile App (구상)![alt text](./UI/UI.png)
 
 ## Purpose
@@ -14,22 +14,22 @@
    * 구현 : 과거 지하철 역의 유동인구 분석으로 오늘의 예측 혼잡도를 확인
    * 예시 데이터 : 
      * 입력 : {month : 12, station : '홍대입구', eta : '19'}
-     * 결과 :  ![alt text](홍대입구_12월_19-20시_승하차인원.png)
-     ![alt text](./00_홍대_유동인구.png)
+     * 결과 :  ![alt text](./images/홍대입구_12월_19-20시_승하차인원.png)
+     ![alt text](./images/00_홍대_유동인구.png)
     
  * 김민수
    * 사용 데이터셋 & API : https://www.data.go.kr/data/15058364/openapi.do?recommendDataYn=Y
    * 구현 : 과거 교통량 분석으로 오늘의 예측 교통량 제공 및 실시간 속도 제공
    * 예시 데이터 : 
      * 입력 : {month : 12, location : '서강대교', eta : '18'}
-     * 결과 :  ![alt text](./서강대교_수요일_18시_통행량.png)
-      ![alt text](./01_서강대교_통행량.png)
+     * 결과 :  ![alt text](./images/서강대교_수요일_18시_통행량.png)![alt text](./images/01_서강대교_통행량.png)
  * 이지호
    * 사용 데이터셋 & API : https://www.its.go.kr/opendata/opendataList?service=event
    * 구현 : 목적지 주위 실시간 도로 돌발 정보 제공
    * 예시 데이터 : 
      * 입력 : 사용자 현위치(위도 : X, 경도 : Y)
-     * 결과 : 사용자 현위치 근방 1km 이내에 돌발 교통 정보 시각화![alt text](./02_돌발교통정보.png)
+     * 결과 : 사용자 현위치 근방 1km 이내에 돌발 교통 정보 시각화
+     ![alt text](./images/02_돌발교통정보.png)
 
 
 ## 필요성
